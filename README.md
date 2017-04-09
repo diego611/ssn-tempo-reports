@@ -4,7 +4,7 @@ This tiny Chrome extension injects some CSS to our print views of [Tempo](http:/
 
 A bit dirty, but just works.
 
-##Usage
+## Usage
 
 - Download the extension
 - Go to `chrome://extensions` in your Chrome browser

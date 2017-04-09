@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Season Custom Reports",
+  "version": "0.1.0",
+  "description": "Minor CSS and Markup changes to make our reports better",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "js": ["vendor/jquery-2.2.4.min.js","scripts.js"],
+    "matches": ["https://season.atlassian.net/secure/TempoAccountBoard!reportPrint.jspa*"],
+    "run_at": "document_end"
+  }]
+
+}
